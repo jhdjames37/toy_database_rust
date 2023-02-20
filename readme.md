@@ -1,6 +1,6 @@
 # Database Manage System
 
-《数据库系统概论》课程项目，Rust 编写。
+清华大学《数据库系统概论》课程项目，Rust 编写。
 
 A database manage system written in Rust, as a course project of *Introduction to Database Management System* in THU.
 
@@ -52,3 +52,9 @@ antlr 官方目前未提供 Rust 支持。
 ```bash
 java -jar <antlr4-4.8-2-SNAPSHOT-complete.jar> -Dlanguage=Rust SQL.g4  -visitor -o parser
 ```
+
+## 开发说明
+
+可以参阅[实验报告](/report.pdf)，不过是一天赶出来的，有些地方可能会有错漏。
+
+另外[这里](/dev.md)是一些偏吐槽向的开发总结。
